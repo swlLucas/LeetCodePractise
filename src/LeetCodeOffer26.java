@@ -1,5 +1,4 @@
 public class LeetCodeOffer26 {
-<<<<<<< HEAD
     /**
      * Definition for a binary tree node.
      * public class TreeNode {
@@ -27,6 +26,4 @@ public class LeetCodeOffer26 {
             return A.val == B.val && dfs(A.left, B.left) && dfs(A.right, B.right);
         }
     }
-=======
->>>>>>> 2bbf4591c427f21adfd2e58116fe74d0aea52f17
 }
