@@ -1,3 +1,5 @@
+
+
 public class LeetCodeOffer46Medium {
     class Solution {
         public int translateNum(int num) {
