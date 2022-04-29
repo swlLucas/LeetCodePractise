@@ -1,28 +1,34 @@
-public class Contest_weekly_contest_288 {
+public class Contest_doubleweekly_contest_76 {
     class Solution {
-        public int largestInteger(int num) {
-            int res = 0;
-            int size = String.valueOf(num).length();
-            int[] temp = new int[size];
-            for (int i = size - 1; i >= 0; i--) {
-                temp[i] = num % 10;
-                num /= 10;
-            }
-            for (int i = 0; i < size; i++) {
-                for (int j = i + 1; j < size; j++) {
-                    if (((temp[i] % 2) ^ (temp[j] % 2)) == 0 && temp[i] < temp[j]) {
-                        int cur = temp[i];
-                        temp[i] = temp[j];
-                        temp[j] = cur;
+        //LeetCode 6060
+        public int findClosestNumber(int[] nums) {
+            int res = nums[0], min = Math.abs(nums[0]);
+            for (int i = 1; i < nums.length; i++) {
+                if (Math.abs(nums[i]) <= min) {
+                    if (Math.abs(nums[i]) == min) {
+                        res = Math.max(res, nums[i]);
+                    } else {
+                        res = nums[i];
                     }
+                    min = Math.abs(nums[i]);
                 }
             }
-            int idx = 1;
-            for (int i = size - 1; i >= 0; i--) {
-                res += temp[i] * idx;
-                idx *= 10;
-            }
             return res;
+        }
+
+        //LeetCode 6061
+        public long waysToBuyPensPencils(int total, int cost1, int cost2) {
+            //买或者不买
+            //f(0) = 1 一支都不买
+            //f(1) = f(0) + (能否买钢笔) + （能否买铅笔）
+            long a = 1;
+
+            while (total > 0) {
+                a = total > cost1 ? a++ : a;
+                a = total > cost2 ? a++ : a;
+                total = total - (Math.min(cost1, cost2));
+            }
+            return a;
         }
     }
 }
