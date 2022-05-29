@@ -35,3 +35,7 @@ Z
 *src/LeetCodeOffer/LeetCodeOffer54Easy.java,5/b/5b2b0371468285b6fdaa6c3f0c15566240e95175
 [
 +src/LeetCodeOffer/LeetCodeOffer54Easy2.java,3/5/35aadd9c1d56b6c8fe0a2596fbc500ee1c6418ee
+\
+,src/LeetCodeOffer/LeetCodeOffer32Medium.java,9/6/96a8d23f55c3ee98935d05078f78d13a3e51951c
+\
+,src/LeetCodeOffer/LeetCodeOffer45Medium.java,1/2/1292f260f4892e0b3354ee7d9d00dc7715fb0b75
