@@ -6,8 +6,6 @@ S
 X
 (src/Contest_doubleweekly_contest_76.java,3/0/304b0d38c0bad77f6f77234d869f67d2aa609a36
 V
-&src/LeetCodeOffer/LeetCodeOffer03.java,1/c/1c80a9143034a15c679f4176a4920fbce15b2a1c
-V
 &src/LeetCodeOffer/LeetCodeOffer04.java,4/6/46f788e3f79c8902cd4b5525767c667234c89887
 V
 &src/LeetCodeOffer/LeetCodeOffer05.java,a/a/aa2819bea3ed6b83de681fc45d0def872caf022c
@@ -37,5 +35,7 @@ Z
 +src/LeetCodeOffer/LeetCodeOffer54Easy2.java,3/5/35aadd9c1d56b6c8fe0a2596fbc500ee1c6418ee
 \
 ,src/LeetCodeOffer/LeetCodeOffer32Medium.java,9/6/96a8d23f55c3ee98935d05078f78d13a3e51951c
-\
-,src/LeetCodeOffer/LeetCodeOffer45Medium.java,1/2/1292f260f4892e0b3354ee7d9d00dc7715fb0b75
+Z
+*src/LeetCodeOffer/LeetCodeOffer61Easy.java,4/3/436826d01b9a83dc1111b8f79f6ed37408abff73
+Z
+*src/LeetCodeOffer/LeetCodeOffer40Easy.java,1/6/16cd3644212099af106fa679897e53214c87c729
