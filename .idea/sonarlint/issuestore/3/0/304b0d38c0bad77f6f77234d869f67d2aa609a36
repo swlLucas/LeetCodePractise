@@ -1,10 +1,0 @@
-
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï»¶‰
-0
-java:S1220""Move this file to a named package.
-7
-java:S1659"!Declare "min" on a separate line.(Ã•àú
-P
-java:S1854"5Remove this useless assignment to local variable "a".(Æ³®Ëûÿÿÿÿ
-P
-java:S1854"5Remove this useless assignment to local variable "a".(¿¼€ôüÿÿÿÿ
