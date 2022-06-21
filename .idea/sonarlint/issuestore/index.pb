@@ -41,3 +41,13 @@ V
 &src/LeetCodeOffer/LeetCodeOffer26.java,c/b/cbae627c256437ff62e7876d9836e0f4482db9da
 Z
 *src/LeetCodeOffer/LeetCodeOffer25Easy.java,9/5/95cdd139578f178a36484c433401b947f4118946
+J
+src/LeetCodemianshi50.java,0/1/01ec0652558cdb16608521af7651a37a6dc32202
+S
+#src/Contest_weekly_contest_288.java,8/7/87bed6d1385bef36f10fb91f76aba342e77e0202
+X
+(src/Contest_doubleweekly_contest_76.java,3/0/304b0d38c0bad77f6f77234d869f67d2aa609a36
+Z
+*src/LeetCodeOffer/LeetCodeOffer55Easy.java,c/c/cc78b7934bc9ca193ac7edde451d29c5f21dae52
+Z
+*src/LeetCodeOffer/LeetCodeOffer41Hard.java,c/d/cd2edfd4ebcb3e6d60e31b788ae809b4d510ab7f
