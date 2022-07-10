@@ -51,3 +51,7 @@ Z
 *src/LeetCodeOffer/LeetCodeOffer55Easy.java,c/c/cc78b7934bc9ca193ac7edde451d29c5f21dae52
 Z
 *src/LeetCodeOffer/LeetCodeOffer41Hard.java,c/d/cd2edfd4ebcb3e6d60e31b788ae809b4d510ab7f
+[
++src/LeetCodeOffer/LeetCodeOffer55Easy2.java,d/d/dd76e7081468fad19ed683e21eb36a41cfe5dc7a
+\
+,src/LeetCodeOffer/LeetCodeOffer51Medium.java,6/9/69817743dfb808263d7f5cce91443d17b4229dbf

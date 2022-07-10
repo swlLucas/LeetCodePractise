@@ -37,16 +37,28 @@ public class No206reverse_linked_list {
 //        }
 
         //双指针
+        //迭代
+//        public ListNode reverseList(ListNode head) {
+//            if (head == null) return null;
+//            ListNode pre = null, cur = head, temp;
+//            while (cur != null) {
+//                temp = cur.next;
+//                cur.next = pre;
+//                cur = temp;
+//                pre = cur;
+//            }
+//            return pre;
+//        }
+
+        //递归
         public ListNode reverseList(ListNode head) {
-            if (head == null) return null;
-            ListNode pre = null, cur = head, temp;
-            while (cur != null) {
-                temp = cur.next;
-                cur.next = pre;
-                cur = temp;
-                pre = cur;
+            if (head == null || head.next == null) {
+                return head;
             }
-            return pre;
+            ListNode cur = reverseList(head.next);
+            head.next.next = head;
+            head.next = null;
+            return cur;
         }
     }
 }
